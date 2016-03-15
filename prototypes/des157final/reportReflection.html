@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aim High | Make Report</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+      
+<!--Nav Bar -->
+  <nav class="top-bar">
+        <div class="wrap">
+        <div class="top-bar-left">
+         <a href="index.html"><img src="img/logo.png" width=115px height=50px/></a>
+        </div>
+        
+        <div class="top-bar-right">
+         <ul class="menu">
+                <li>
+                <a href="makeReport.html" class="button">Make a Report</a></li>
+             
+            
+             
+             <li>
+         
+          <ul class="dropdown menu" data-dropdown-menu>
+  <li>
+    <a class="button" href="#">Menu</a>
+    <ul class="menu">
+      <li><a href="stats-week.html">Home</a></li>
+     <li><a href="setGoal.html">Set a new Goal</a></li>
+      <li><a href="makeReport.html">Make a Report </a></li>
+
+      <!-- ... -->
+    </ul>
+  </li>
+        </ul>
+        </li> 
+             
+       </ul>
+        </div>
+        </div>
+    </nav>
+    
+      
+<!-- MAIN SECTION --> 
+      
+<section class="report">
+  <img src="img/reportbanner.png" width=100%/>
+  <div class="row wrap"> 
+      
+<!--first row--> 
+    <section class="survey"> 
+     <div id="academic" class="large-6 medium-6 small-6 columns">
+         <div class="row">
+      <h4> Unfortunately, it looks like you didn't complete these academic goals today.</h4>
+      <p>FINISH AHI 168 READING <br>
+        Complete 1 chapter of code academy</p>
+        </div>
+          <div class="row">
+         <h4> Did you have any blockers? If so, write them here! </h4>  
+        </div>
+        <div class="row"> 
+        <input id="block" name="action" type="text"          >
+        </div>
+      </div>
+       <div id="personal" class="large-6 medium-6 small-6 columns"> 
+        <div class="row">
+      <h4> It's too bad. It looks like you didn't complete these personal goals today.</h4>
+      <p>Practice Flute BeatBoxing for 20 min <br> Do 1 character sketch</p>
+        </div>
+        <div class="row">
+         <h4> Did you have any blockers? If so, write them here! </h4>  
+        </div>
+        <div class="row"> 
+        <input id="block" name="action" type="text"          >
+        </div>
+      </div>
+      
+      
+<!--continue button --> 
+   <div class="row" id="continuereflection">
+             
+<a href="reportSummary.html" class="button secondary">Continue</a>
+        
+    </div>
+    </section>
+</section>
+
+<!--FOOTER --> 
+ <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+    
+    </body>
+</html>
